@@ -1,0 +1,15 @@
+// Disable Light Mode High Contrast Icons by AricHorn
+
+// In Case if the code at the bottom fails, have the Hex Code of it. #808080
+
+UIColor* YTGray2 = [UIColor colorWithRed:0.502 green:0.502 blue:0.502 alpha:1.0];
+
+%group gOLED
+%hook YTCommonColorPalette
+- (UIColor *)Icons {
+    if (self.pageStyle == 1) {
+        return YTGray2;
+    }
+        return %orig;
+}
+%end
