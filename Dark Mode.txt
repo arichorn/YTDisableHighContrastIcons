@@ -1,4 +1,7 @@
 // Disable Dark Mode High Contrast Icons by AricHorn
+
+// In Case if the code at the bottom fails, have the Hex Code of it. #909090
+
 UIColor* YTGray = [UIColor colorWithRed:0.5647 green:0.5647 blue:0.5647 alpha:1.0];
 
 %group gOLED
