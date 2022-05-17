@@ -1,0 +1,9 @@
+Package: com.galacticdev.ytdisablehighcontrasticons
+Name: YTDisableHighContrastIcons
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.5.5)
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Brings back the Non-HighContrast Icons on YouTube.
+Maintainer: arichorn
+Author: arichorn
+Section: Tweaks
