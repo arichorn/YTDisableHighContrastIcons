@@ -1,4 +1,4 @@
-// Disable High Contrast Icons by AricHorn
+// Disable Dark Mode High Contrast Icons by AricHorn
 UIColor* YTGray = [UIColor colorWithRed:0.5647 green:0.5647 blue:0.5647 alpha:1.0];
 
 %group gOLED
