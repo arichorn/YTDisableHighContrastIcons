@@ -1,4 +1,4 @@
-About the Tweak: this tweak tries to disable High Contrasted Icons in Light/Dark Mode, the navigation bar and top bar can be optinally changed to the original colors #808080 for Light Mode & #909090 for Dark Mode. this tweak will help users that get their eyes strained from the white icons.
+About the Tweak: this tweak tries to disable High Contrasted Icons in Light/Dark Mode, the navigation bar and top bar can be optinally changed to the original colors #808080 for Light Mode & #909090 for Dark Mode. this tweak will help users that get their eyes strained from the white or pitch black icons.
 
 
 
