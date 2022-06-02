@@ -1,3 +1,7 @@
+About the Tweak: this tweak tries to disable High Contrasted Icons in Light/Dark Mode, the navigation bar and top bar can be optinally changed to the original colors #808080 for Light Mode & #909090 for Dark Mode. this tweak will help users that get their eyes strained from the white icons.
+
+
+
 # YTDisableHighContrastIcons Tweak Previews (Photoshopped Examples)
 
 - Light Mode (iPhone)
@@ -12,5 +16,3 @@
 
 - Dark Mode (iPad)
 ![3A75BC30-C060-4CEC-B041-491AF3B5B1AE](https://user-images.githubusercontent.com/78001398/169716781-cf2b4838-8a61-4c11-88fd-1746b4b46a86.png)
-
-About the Tweak: this tweak tries to disable High Contrasted Icons in Light/Dark Mode, the navigation bar and top bar can be optinally changed to the original colors #808080 for Light Mode & #909090 for Dark Mode. this tweak will help users that get their eyes strained from the white icons.
