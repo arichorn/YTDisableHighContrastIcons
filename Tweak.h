@@ -2,10 +2,15 @@
 @property(readonly, nonatomic) YTQTMButton *creationButton;
 @end
 
-@interface YTNavigationButtons
-@property(readonly, nonatomic) YTQTMButton *NavigationButtons;
+@interface YTQTMButton : UIButton
 @end
 
-@interface YTTopNavigationButtons
-@property(readonly, nonatomic) YTQTMButton *TopNavigationButtons;
+@interface YTRightNavigationButtons
+@property(readonly, nonatomic) YTQTMButton *MDXButton;
+@property(readonly, nonatomic) YTQTMButton *searchButton;
+@property(readonly, nonatomic) YTQTMButton *notificationButton;
+@end
+
+@interface YTUserDefaults : NSObject
+- (long long)appThemeSetting;
 @end
