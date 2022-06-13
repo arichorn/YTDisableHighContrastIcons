@@ -22,15 +22,15 @@
 			return item.settingItemId == 294;
 		}];
 		if (appropriateIdx != NSNotFound) {
-			YTSettingsSectionItem *HighContrastIcons = [[%c(YTSettingsSectionItem) alloc] initWithTitle:@"High Contrast Icons" titleDescription:@"Allows you to Enable/Disable the High Contrast Icons for Light/Dark Mode"];
-			HighContrastIcons.hasSwitch = YES;
-			HighContrastIcons.switchVisible = YES;
-			HighContrastIcons.on = [[NSUserDefaults standardUserDefaults] boolForKey:@"high_contrast_icons_enabled"];
-			HighContrastIcons.switchBlock = ^BOOL (YTSettingsCell *cell, BOOL enabled) {
-				[[NSUserDefaults standardUserDefaults] setBool:enabled forKey:@"high_contrast_icons_enabled"];
+		        YTSettingsSectionItem *ytDisableHighContrastIcons = [[%c(YTSettingsSectionItem) alloc] initWithTitle:@"Disable The High Contrast Icons" titleDescription:@"App restart is required."];
+		        ytDisableHighContrastIcons.hasSwitch = YES;
+                        ytDisableHighContrastIcons.switchVisible = YES;
+			ytDisableHighContrastIcons.on = [[NSUserDefaults standardUserDefaults] boolForKey:@"ytDisableHighContrastIcons_enabled"];
+			ytDisableHighContrastIcons.switchBlock = ^BOOL (YTSettingsCell *cell, BOOL enabled) {
+				[[NSUserDefaults standardUserDefaults] setBool:enabled forKey:@"ytDisableHighContrastIcons_enabled"];
 				return YES;
 			};
-			[sectionItems insertObject:HighContrastIcons atIndex:appropriateIdx + 1];
+			[sectionItems insertObject:ytDisableHighContrastIcons atIndex:appropriateIdx + 1];
 		}
 	}
 	%orig;
@@ -39,7 +39,7 @@
 
 %hook YTSystemIcons
 - (void)setHidden:(BOOL)hidden {
-	if (![[NSUserDefaults standardUserDefaults] boolForKey:@"high_contrast_icons_enabled"])
+	if (![[NSUserDefaults standardUserDefaults] boolForKey:@"ytDisableHighContrastIcons_enabled"])
 		hidden = YES;
 	%orig;
 }
