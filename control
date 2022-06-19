@@ -1,4 +1,4 @@
-Package: com.galacticdev.ytdisablehighcontrasticons
+Package: com.arichorn.ytdisablehighcontrasticons
 Name: YTDisableHighContrastIcons
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13)
 Version: 1.0.0
