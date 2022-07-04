@@ -1,4 +1,5 @@
 #import <UIKit/UIKit.h>
+#import "../YouTubeHeader/YTCommonColorPalette.h"
 
 @interface YTCollectionViewCell : UICollectionViewCell
 @end
